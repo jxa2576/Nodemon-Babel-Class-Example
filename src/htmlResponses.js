@@ -11,7 +11,7 @@ const getIndex = (request, response) => {
   response.end();
 };
 
-const getBundle = (request, respoonse) => {
+const getBundle = (request, response) => {
   response.writeHead(200, { 'Content-Type': 'application/javascript' });
   response.write(bundle);
   response.end(); 
